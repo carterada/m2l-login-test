@@ -1,0 +1,55 @@
+nav {
+    background-color: #563d7c;
+    color: white;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 10px;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: #563d7c;
+    border-radius: 4px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #563d7c;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+alert alert-danger mt-4 {
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
